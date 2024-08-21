@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import BasePage from '../../pages/basePage'
-import { errorMessages } from '../../data/consts'
-import generateRandomEmail from '../../helpers/generateEmail'
+import BasePage from '../../../pages/basePage'
+import { errorMessages } from '../../../data/consts'
+import generateRandomEmail from '../../../helpers/generateEmail'
 
 
 test.describe('Registration popup possitive and negative checks', () => {

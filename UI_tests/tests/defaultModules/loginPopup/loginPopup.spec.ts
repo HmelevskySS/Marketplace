@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import BasePage from '../../pages/basePage'
-import { userAccount, incorrectUserData, errorMessages } from '../../data/consts'
+import BasePage from '../../../pages/basePage'
+import { userAccount, incorrectUserData, errorMessages } from '../../../data/consts'
 
 
 test.describe('Login popup possitive and negative checks', () => {

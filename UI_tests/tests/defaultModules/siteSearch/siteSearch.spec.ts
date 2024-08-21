@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import SearchResultsPage from '../../pages/searchResultsPage/searchResultsPage'
-import { searchRequests } from '../../data/consts'
+import SearchResultsPage from '../../../pages/searchResultsPage/searchResultsPage'
+import { searchRequests } from '../../../data/consts'
 
 
 test.describe('Site main search possitive and negative checks', () => {

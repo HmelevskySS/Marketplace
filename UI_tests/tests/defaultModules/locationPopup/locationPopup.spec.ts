@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import BasePage from '../../pages/basePage'
-import { errorMessages, cityToSearch } from '../../data/consts'
+import BasePage from '../../../pages/basePage'
+import { errorMessages, cityToSearch } from '../../../data/consts'
 
 
 test.describe('Location popup possitive and negative checks', () => {
