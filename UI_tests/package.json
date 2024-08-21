@@ -1,0 +1,18 @@
+{
+  "name": "ui_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "debug": "npx playwright test --debug",
+    "allure:reporter": "npx allure generate ../ui_tests/allure-results --clean && allure open ../ui_tests/allure-report"
+  },
+  "keywords": [],
+  "author": "Sergey Hmelevsky",
+  "license": "ISC",
+  "description": "The Diploma project for the automation QA course",
+  "devDependencies": {
+    "@playwright/test": "^1.46.1",
+    "@types/node": "^22.4.1"
+  }
+}
