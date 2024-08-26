@@ -10,8 +10,6 @@ test('Save accepted cookies state', async ({ browser }) => {
   await expect(acceptCookiesButton).toBeVisible();
   await acceptCookiesButton.click();
   await expect(acceptCookiesButton).toBeHidden();
-
   await context.storageState({ path: './UI_tests/cookieState/cookies.json' });
-
   await page.close();
 });

@@ -4,7 +4,7 @@ import { errorMessages } from '../../../data/consts'
 import generateRandomEmail from '../../../helpers/generateEmail'
 
 
-test.describe('Registration popup possitive and negative checks', () => {
+test.describe('Registration popup positive and negative checks', () => {
   
   let locators: BasePage;
   test.use({ storageState: './UI_tests/cookieState/cookies.json' });

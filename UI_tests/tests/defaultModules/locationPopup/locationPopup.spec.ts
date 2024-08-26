@@ -3,7 +3,7 @@ import BasePage from '../../../pages/basePage'
 import { errorMessages, cityToSearch } from '../../../data/consts'
 
 
-test.describe('Location popup possitive and negative checks', () => {
+test.describe('Location popup positive and negative checks', () => {
   
   let locators: BasePage;
   test.use({ storageState: './UI_tests/cookieState/cookies.json' });

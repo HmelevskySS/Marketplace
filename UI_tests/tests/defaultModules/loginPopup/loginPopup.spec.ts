@@ -3,7 +3,7 @@ import BasePage from '../../../pages/basePage'
 import { userAccount, incorrectUserData, errorMessages } from '../../../data/consts'
 
 
-test.describe('Login popup possitive and negative checks', () => {
+test.describe('Login popup positive and negative checks', () => {
   
   let locators: BasePage;
   test.use({ storageState: './UI_tests/cookieState/cookies.json' });
@@ -14,7 +14,6 @@ test.describe('Login popup possitive and negative checks', () => {
     await locators.checkLogoIsVisible();
     await locators.loginPopup.triggerTheLoginPopup();
   })
-
 
   test('Verify user can log in his account on the main page', async () => {
 

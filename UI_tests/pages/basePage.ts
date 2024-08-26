@@ -16,7 +16,7 @@ export default class BasePage {
     toolBar: ToolBar;
 
     constructor(page: Page) {
-        this.page = page;
+        this.page = page;  
         this.siteLogo = page.locator('.logotypeImg');
         this.loginPopup = new LoginPopup(page);
         this.registrationPopup = new RegistrationPopup(page);
