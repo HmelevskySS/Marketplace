@@ -1,4 +1,8 @@
-# Automated Testing Project for 21vek.by
+# Note!
+
+This is a test project that is no longer actively maintained. As a result, some tests may be outdated or broken.
+
+## Automated Testing Project for 21vek.by
 
 This repository contains a set of automated tests for the [21vek.by](https://www.21vek.by/) website, written using the latest principles and best practices in testing.
 
@@ -13,16 +17,16 @@ This repository contains a set of automated tests for the [21vek.by](https://www
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/21vek-tests.git
-    cd 21vek-tests
-    ```
+   ```bash
+   git clone https://github.com/your-username/21vek-tests.git
+   cd 21vek-tests
+   ```
 
 2. Install the dependencies:
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
 3. Ensure that all necessary tools are installed, including [Node.js](https://nodejs.org/) and [Allure Commandline](https://docs.qameta.io/allure/#_installing_a_commandline).
 

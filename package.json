@@ -1,0 +1,37 @@
+{
+  "name": "ui_tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prettier": "prettier --write .",
+    "test:ui": "npx playwright test --project=ui-tests",
+    "test:api": "npx playwright test --project=api-tests",
+    "test:all": "npx playwright test",
+    "report": "npx playwright show-report",
+    "debug": "npx playwright test --debug",
+    "allure:reporter": "npx allure generate ../allure-results --clean && allure open ../allure-report"
+  },
+  "keywords": [],
+  "author": "Sergey Hmelevsky",
+  "license": "ISC",
+  "description": "The Diploma project for the automation QA course",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.4.1",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.0.0-beta.10"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HmelevskySS/Marketplace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HmelevskySS/Marketplace/issues"
+  },
+  "homepage": "https://github.com/HmelevskySS/Marketplace#readme"
+}
